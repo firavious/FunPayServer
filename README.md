@@ -46,7 +46,7 @@
 Данный вид установки подходит пользователей, которым нужен больший контроль над работой программы.
 
 1. Установите **[Node.JS](https://nodejs.org/en/)**.
-2. Скачайте исходный код **[Source code.zip](https://github.com/NightStrang6r/FunPayServer/releases)**.
+2. Скачайте исходный код **[Source code.zip](https://github.com/firavious/FunPayServer/releases)**.
 3. Распакуйте загруженный архив в любую папку.
 5. Получите `golden_key` из cookie FunPay. Вы можете использовать расширение [Edit This Cookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg). 
 4. Запустите файл `Start.bat`, это установит зависимости для работы программы. После запустите этот файл повторно и следуйте инструкциям в консоли. Готово!
@@ -79,7 +79,7 @@
 - [Скачать через Google Play](https://play.google.com/store/apps/details?id=com.termux) (**важно:** версия Termux из Google Play больше **не обновляется**)
 2. Обновите пакеты, выполнив команду `apt update && apt upgrade`.
 3. Выполните команду `pkg install nodejs wget unzip`.
-4. Выполните команду `wget https://github.com/NightStrang6r/FunPayServer/archive/refs/heads/main.zip && unzip main.zip`.
+4. Выполните команду `wget https://github.com/firavious/FunPayServer/archive/refs/heads/main.zip && unzip main.zip`.
 5. Перейдите в папку проекта, выполнив команду `cd FunPayServer-main`.
 6. Выполните команды: `npm i`, `node .` (не пропустите точку!).
 7. Следуйте инструкциям консоли. Готово!
@@ -219,7 +219,7 @@ greetingMessageText: Привет! Продавец скоро ответит н
 autoDeliveryTestCommand: 0
 
 # Текст, который отправляется в самом начале каждого сообщения бота в чате.
-waterMark: [ 🔥NightBot ]
+waterMark: [ by github.com/firavious ]
 
 
 [Telegram]
@@ -293,6 +293,5 @@ type: http
 
 Вы также можете поддержать разработчика материально, чтобы ускорить выход будущих обновлений:
 
-- [Monobank](https://send.monobank.ua/jar/7fiVkcrWYv)
-- [DonationAlerts](https://www.donationalerts.com/r/nightstranger)
-- [ЮMoney](https://yoomoney.ru/to/4100115656349483)
+- [DonationAlerts](https://www.donationalerts.com/r/firavious)
+- [Qiwi](https://qiwi.com/n/QUALU432)
